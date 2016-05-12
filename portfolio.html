@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+        <title>Erick Bolaños - Full Stack Web Developer</title>
+        <link href="../Resources/Bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+        <link href="../Resources/FontAwesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <link href="../Resources/Bootstrap/bootstrap-social.css" rel="stylesheet" type="text/css"/>
+        <link href="css/portfolio.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body style="margin-top: 51px">
+        <header class="navbar navbar-default navbar-fixed-top navbar-inverse">
+            <div class="container">
+                <nav>
+                  <div class="container-fluid">
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand" href="#">Erick Bolaños</a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                      <ul class="nav navbar-nav">
+                        <li class="active"><a href="#about">About <span class="sr-only">(current)</span></a></li>
+                        <li><a href="#portfolio">Porfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <header>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 section main" id="about">
+                            <h2>About me</h2>
+                            <hr/>
+                            <div class="col-md-3" align="center" style="margin: 0 0 20px 0">
+                                <img src="http://erickbolanos.esy.es/me.jpg">
+                            </div>
+                            <div class="col-md-9">
+                                <p>My name is Erick and I'm a Full Stack Web Developer with 3 years of experience developing web applications and modules
+                                for the web platform used in the university I work at.</p>
+                                <p>I work primarily using jQuery, PHP and SQL Server to develop solutions, but I've also taken several courses
+                                for different web technologies and programming languages, including AngularJS, Python, ASP.NET and Java.</p>
+                                <p>I always strive to learn about new technologies and
+                                get better at the ones I'm used to work with.</p>
+                                <hr/>
+                                <span style="float: right">Erick Eduardo Bolaños Rubio - Full Stack Web Developer</span>
+                            </div>
+                        </div>
+                    </div>
+            </header>
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 section" id="portfolio">
+                            <h2>Portfolio</h2>
+                            <hr/>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <a href="#" class="thumbnail">
+                                        <img src="http://erickbolanos.esy.es/portfolio-thumbnails/inscripciones.png"/>
+                                        <div class="caption">
+                                            <h4>Online admissions</h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="#" class="thumbnail">
+                                        <img src="http://erickbolanos.esy.es/portfolio-thumbnails/planes-estudio.png"/>
+                                        <div class="caption">
+                                            <h4>College degree programs</h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="#" class="thumbnail">
+                                        <img src="http://erickbolanos.esy.es/portfolio-thumbnails/inventario-hardware.png"/>
+                                        <div class="caption">
+                                            <h4>Hardware stock</h4>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <a href="#" class="thumbnail">
+                                        <img src="http://erickbolanos.esy.es/portfolio-thumbnails/reservado-salones.png"/>
+                                        <div class="caption">
+                                            <h4>Classrooms reservations</h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="#" class="thumbnail">
+                                        <img src="http://erickbolanos.esy.es/portfolio-thumbnails/mis-activos.png"/>
+                                        <div class="caption">
+                                            <h4>Fixed Assets per employee</h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="#" class="thumbnail">
+                                        <img src="http://erickbolanos.esy.es/portfolio-thumbnails/digitalizacion.png"/>
+                                        <div class="caption">
+                                            <h4>Documents digitalization</h4>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 section" id="contact">
+                            <h2>Contact me</h2>
+                            <hr/>
+                            <p>If you would like to contact me and get more information about myself or my work experience,
+                            please fill the form below and I will try to contact you back as soon as posible.</p><br/>
+                            <input type="text" id="name" placeholder="Name" class="form-control"/><br/>
+                            <input type="text" id="email" placeholder="Email address" class="form-control"/><br/>
+                            <input type="text" id="phone" placeholder="Phone number" class="form-control"/><br/>
+                            <textarea type="text" id="message" cols="20" rows= "3" class="form-control" placeholder="Message"></textarea><br/>
+                            <div align="center">
+                                <button class="btn btn-primary" id="sendContact">Send</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="container-fluid navbar navbar-default" style="padding: 20px; margin: 0;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h2>Made by Erick Eduardo Bolaños Rubio for FreeCodeCamp</h2>
+                        </div>
+                        <div class="col-md-offset-3 col-md-5">
+                            <h2>Social media</h2>
+                            <div align="center">
+                                <a class="btn btn-social-icon btn-linkedin" href="https://mx.linkedin.com/in/erick-eduardo-bolaños-rubio-571373a7">
+                                    <span class="fa fa-linkedin"></span>
+                                </a>
+                                <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/public/Erick-Eduardo-Bolaños-Rubio">
+                                    <span class="fa fa-facebook"></span>
+                                </a>
+                                <a class="btn btn-social-icon btn-github" href="https://github.com/ItitErickBolanos">
+                                    <span class="fa fa-github"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar navbar-default navbar-inverse" style="margin: 0; border-radius: 0">
+                <div class="container" style="padding: 20px">
+                    <p style="color: white">Erick Eduado Bolaños Rubio &copy; 2016. All rights reserved</p>
+                </div>
+            </nav>
+        </footer>
+    <script type="text/javascript" src="../Resources/jQuery/jquery-1.12.1.js"></script>
+    <script type="text/javascript" src="../Resources/Bootstrap/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/portfolio.js"></script>
+    </body>
+</html>

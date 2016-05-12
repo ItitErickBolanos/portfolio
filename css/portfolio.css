@@ -1,0 +1,23 @@
+body {
+    font-family: Roboto, Helvetica,sans-serif;
+    background-color: #CFD8DC;
+    position: relative;
+}
+
+.section.main {
+    background-color: #ECEFF1;
+}
+
+.section {
+    padding: 30px;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+hr {
+    border-color: rgb(207, 216, 220);
+}
